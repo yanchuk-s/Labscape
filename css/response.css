@@ -1,0 +1,320 @@
+@media all and (max-width: 1200px){
+    .home-video {
+        position: absolute;
+        width: calc(100% - 137px);
+        top: 35px;
+        right: 78px;
+        height: 100%;
+        background-color: #000;
+        height: 60%;
+    }
+}
+
+@media all and (max-width: 991px){
+    .nav-header ul{
+        display: none;
+        width: 100%;
+        left: 0;
+        background-color: #5194e7;
+        top: 68px;
+        position: absolute;
+    }
+
+    .nav-header .trigger-nav{
+        display: block;
+    }
+
+    header .container{
+        position: initial;
+    }
+
+    .nav-header li{
+        display: block;
+    }
+
+    .nav-header a{
+        justify-content: center;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .home-section{
+        padding-top: 110px;
+    }
+
+    .home-section h1{
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .home-section a{
+        margin-bottom: 50px;
+    }
+
+    .home {
+        padding-bottom: 300px;
+    }
+
+    .home-video {
+        position: absolute;
+        width: calc(100% - 103px);
+        top: 25px;
+        right: 59px;
+        height: 100%;
+        background-color: #000;
+        height: 60%;
+    }
+
+    .work-today {
+        margin-top: 350px;
+        padding-bottom: 70px;
+    }
+
+    .work-today-text h2{
+        font-size: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .work-today-text span {
+        margin: 15px 0;
+    }
+
+    .control-header h2{
+        font-size: 35px;
+    }
+
+    .control-item .control-text p{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .about-us{
+        padding-top: 70px;
+    }
+
+    .about-us .about-us-text h2{
+        font-size: 35px;
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us .about-us-text span {
+        margin: 15px 0;
+    }
+
+    .about-us .about-us-text p{
+        width: 100%;
+    }
+
+    .executive-item .executive-descr{
+        width: 100%;
+    }
+
+    .executive-stat{
+        width: 85%;
+        flex-direction: column;
+    }
+
+    .executive-stat div span{
+        width: auto;
+        margin-top: 0;
+    }
+
+    .executive-stat div{
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .executive-stat div h5{
+        font-size: 20px;
+    }
+
+    .executive-stat div img{
+        width: 28px;
+    }
+
+    .lab-team .tab-content .tab-prev{
+        left: -30px;
+    }
+
+    .lab-team .tab-content .tab-next{
+        right: -30px;
+    }
+
+}
+
+@media all and (max-width: 768px){
+    .home-section h1 {
+        font-size: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .home-section p{
+        width: 100%;
+        height: auto;
+    }
+
+    .home {
+        padding-bottom: 200px;
+    }
+
+    .home-video {
+        position: absolute;
+        width: calc(100% - 72px);
+        top: 19px;
+        right: 43px;
+        height: 100%;
+        background-color: #000;
+        height: 60%;
+    }
+
+    .work-today-text{
+        margin-bottom: 30px;
+    }
+
+    .work-today-text h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .work-today-text p{
+        text-align: center;
+    }
+
+    .work-today .row{
+        display: flex;
+    }
+
+    .work-today .row .col-md-7{
+        display: flex;
+        order: 1;
+    }
+
+    .work-today .row .work-today-text{
+        display: flex;
+        order: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 0;
+    }
+
+    .control-item{
+        margin-bottom: 20px;
+    }
+
+    .control-header h2 {
+        font-size: 25px;
+    }
+
+    .about-us-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-us .about-us-text h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-us .about-us-text p {
+        text-align: center;
+    }
+
+    .about-us-map iframe{
+        height: 400px!important;
+    }
+
+    .control-header span {
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+
+    .work-today {
+        margin-top: 300px;
+        padding-bottom: 70px;
+    }
+
+    .lab-team .tab-content .tab-next,
+    .lab-team .tab-content .tab-prev{
+        display: none;
+    }
+
+    .lab-team .nav-tabs .nav-item.nav-link{
+        font-size: 16px;
+        margin: 0 20px;
+    }
+
+    .smoll-user,
+    .medium-user{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 530px){
+    .home-video {
+        position: absolute;
+        width: calc(100% - 64px);
+        top: 16px;
+        right: 37px;
+        height: 100%;
+        background-color: #000;
+        height: 60%;
+    }
+
+    .lab-team .nav-tabs{
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 450px){
+    .home-video {
+        position: absolute;
+        width: calc(100% - 50px);
+        top: 13px;
+        right: 29px;
+        height: 100%;
+        background-color: #000;
+        height: 61%;
+    }
+
+    .work-today {
+        margin-top: 200px;
+        padding-bottom: 70px;
+    }
+
+    .about-us .about-us-text p {
+        width: 99%;
+        max-width: 100%;
+    }
+
+    .about-us {
+        padding-top: 0;
+    }
+
+    .modal-lab .modal-dialog{
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media all and (max-width: 375px){
+    .home-video {
+        position: absolute;
+        width: calc(100% - 43px);
+        top: 11px;
+        right: 25px;
+        height: 100%;
+        background-color: #000;
+        height: 62%;
+    }
+}
